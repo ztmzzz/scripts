@@ -44,8 +44,6 @@ DOMAIN-KEYWORD,plex
 # 我的规则
 IP-CIDR,144.168.60.253/32,no-resolve
 SRC-IP-CIDR,144.168.60.253/32,no-resolve
-IP-CIDR,198.211.21.39/32,no-resolve
-SRC-IP-CIDR,198.211.21.39/32,no-resolve
 DOMAIN-SUFFIX,tailscale.com
 DOMAIN-SUFFIX,tailscale.io
 DOMAIN-SUFFIX,maj-soul.com
