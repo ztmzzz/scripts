@@ -12,9 +12,7 @@ if (cookieVal) {
     $persistentStore.write(SFSecurityVal, SFSecurityKey);
     $persistentStore.write(AuthorizationVal, AuthorizationKey);
     $persistentStore.write(UAVal, UAKey);
-    $notify("SFACG", '获取Cookie & SFSecurity && Authorization: 成功', '')
     console.log(`[SFACG] 获取Cookie: 成功, cookie: ${cookieVal} | SFSecurity: ${SFSecurityVal} | Authorization: ${AuthorizationVal} | UA: ${UAVal}`)
-
 }
 $done();
 
