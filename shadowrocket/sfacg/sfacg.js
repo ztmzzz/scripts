@@ -12,10 +12,10 @@ const myRequest = {
 };
 
 $httpClient.put(myRequest,(err,response,data) =>{
-    if(data===null){
-        console.log(response['status']['msg']);
+    if(data['data']===null){
+        console.log(data['status']['msg']);
     }else {
-        console.log('获取代券数:'+data['coupons']);
+        console.log('获取代券数:'+data['data']['coupons']);
     }
     $done();})
     
