@@ -14,7 +14,7 @@ const myRequest = {
     body: ""
 };
 
-$task.fetch(myRequest).then(response => {
+$httpClient.post(myRequest).then(response => {
     // response.statusCode, response.headers, response.body
     // console.log(response.body);
     // $notify("Title", "Subtitle", response.body); // Success!
