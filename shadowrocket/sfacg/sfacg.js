@@ -9,12 +9,11 @@ const headers = {"Host": "api.sfacg.com","Content-Length": 0,"User-Agent": VAL_U
 
 const myRequest = {
     url: url,
-    method: method, // Optional, default GET.
     headers: headers, // Optional.
     body: ""
 };
 
-$httpClient.post(myRequest).then(response => {
+$httpClient.put(myRequest).then(response => {
     // response.statusCode, response.headers, response.body
     // console.log(response.body);
     // $notify("Title", "Subtitle", response.body); // Success!
