@@ -57,3 +57,4 @@ DOMAIN,paddle-wheel.bj.bcebos.com
 DOMAIN,paddlepaddledeps.bj.bcebos.com
 DOMAIN,paddleocr.bj.bcebos.com
 DOMAIN,paddle-serving.bj.bcebos.com
+DOMAIN-SUFFIX,getui.com
